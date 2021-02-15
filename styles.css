@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* margin-top: 10%; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blanchedalmond;
+  flex-direction: column;
+}
+
+h1 {
+  /* display: none; */
+  color: red;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 5em;
+  font-weight: 700;
+  font-style: italic;
+  font-variant: normal;
+  text-shadow: -3px 2px #0f0f0f;
+  margin-bottom: 0.5em;
+  position: relative;
+  left: 350px;
+}
+
+#love {
+  height: 17%;
+  transform: scale(2);
+  z-index: 10;
+}
+
+.svg-container {
+  z-index: 150;
+  position: absolute;
+  top: 30%;
+  /* font-family: "Lobster", cursive;
+  color: white; */
+}
