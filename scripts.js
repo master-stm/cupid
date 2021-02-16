@@ -20,7 +20,7 @@ tl
 })
 .add({
     targets: '#love',
-    scale: 100,
+    scale: 400,
     duration:1400
 })
 .add({
